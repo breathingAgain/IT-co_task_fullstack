@@ -1,0 +1,25 @@
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+.project-card {
+    max-width: 400px;
+    display: grid; 
+    grid-template-columns: auto; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .project-card img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+  }
+
+  .img-preview {
+    max-width: 300px;
+    max-height: 300px;
+  }
